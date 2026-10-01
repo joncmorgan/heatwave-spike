@@ -1,0 +1,59 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# uv-specific
+uv.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database files (spike testing)
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+.env.swp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logging
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Project-specific (spike artifacts)
+# Keep nothing from spike after testing—repo stays clean for Week 1 rebuild
